@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>SwiftMVVMCModule</string>
+	<key>Description</key>
+	<string>Basic Swift MVVMC module template. Creates View, Interactor, Presenter, Router with protocols.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>SortOrder</key>
+	<integer>9</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create tests for</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>testingFrameworkChoice</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Testing Framework:</string>
+			<key>Description</key>
+			<string>The testing framework to use. Either XCTest or Quick &amp; Nimble</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Basic Partner</string>
+			<key>Values</key>
+			<array>
+				<string>Basic Partner</string>
+				<string>Basic Partner + Coordinator</string>
+				<string>Basic Partne + Model + Coordinator</string>
+			</array>
+		</dict>
+		
+	</array>
+	<key>Template Author</key>
+	<string>Luis Teodoro</string>
+</dict>
+</plist>
